@@ -1,11 +1,10 @@
 import random
 
-# Game setup
 grid_size = 5
 ship_length = 3
 attempts = 15
 
-# Randomly place a horizontal or vertical ship
+# Randomly places a horizontal or vertical ship based on horizontal or vertical orientation and ship length
 ship_orientation = random.choice(["horizontal", "vertical"])
 if ship_orientation == "horizontal":
     ship_row = random.randint(0, grid_size - 1)
@@ -16,13 +15,13 @@ else:
     ship_row_start = random.randint(0, grid_size - ship_length)
     ship_positions = [(ship_row_start + i, ship_col) for i in range(ship_length)]
 
-# Print instructions
+# Instructions
 print("Welcome to Battleship!")
 print(f"The grid is {grid_size}x{grid_size}. Rows and columns are numbered from 0 to {grid_size - 1}.")
 print(f"You have {attempts} attempts to sink the ship!")
 print("Guess by entering the row and column numbers, e.g., '2 3'.")
 
-# Initialize hit tracking
+# Track hits
 hits = 0
 
 # Game loop
