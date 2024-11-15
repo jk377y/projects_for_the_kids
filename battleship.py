@@ -1,5 +1,9 @@
 import random
 
+# Objective for this project is to build a simplified version of the classic game Battleship. 
+# Students will draw a grid layout on a piece of paper and keep track of the positions they tried to attack and mark those locations according to 'hit' or 'miss' status. 
+# The first student to successfully complete the game wins.
+
 # Lesson Plan: 
 # This code demonstrates key programming concepts like variables, lists, loops, conditional statements, and randomization. 
 # The game we’re creating is a simplified version of Battleship where students can guess coordinates to find and "sink" a hidden ship.
