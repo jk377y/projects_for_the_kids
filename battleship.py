@@ -35,9 +35,10 @@ else:
 # Introducing the game to the player
 # We print instructions so the player knows how to play the game. This is an important part of making the program user-friendly.
 print("Welcome to Battleship!")
-print(f"The grid is {grid_size}x{grid_size}. Rows and columns are numbered from 0 to {grid_size - 1}.")
+print(f"The grid is {grid_size} x {grid_size}.")
+print("Rows and Columns are numbered from 0 to {grid_size - 1}.")
 print(f"You have {attempts} attempts to sink the ship!")
-print("Guess by entering the row and column numbers, e.g., '2 3'.")
+print("Guess a target area by entering the Row and Column numbers, e.g., '2 3'.")
 
 # Keeping track of the player's progress
 # The `hits` variable counts how many parts of the ship the player has hit.
