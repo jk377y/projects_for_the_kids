@@ -11,9 +11,9 @@ import random
 
 # Setting up the game board and rules
 # Here, we define some important variables to determine the size of the game board, the length of the ship, and how many guesses the player has.
-grid_size = 10  # The board is a 5x5 grid.
-ship_length = 5  # The ship takes up 3 consecutive spaces.
-attempts = 35  # Players have 15 guesses to find and sink the ship.
+grid_size = 10  # The board is a 10x10 grid.
+ship_length = 5  # The ship takes up 5 consecutive spaces.
+attempts = 25  # Players have 25 guesses to find and sink the ship.
 
 
 # Placing the ship randomly on the board
