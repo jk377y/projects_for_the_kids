@@ -15,6 +15,7 @@ grid_size = 10  # The board is a 5x5 grid.
 ship_length = 5  # The ship takes up 3 consecutive spaces.
 attempts = 35  # Players have 15 guesses to find and sink the ship.
 
+
 # Placing the ship randomly on the board
 # This block decides whether the ship will be placed horizontally or vertically, and then calculates its starting position.
 ship_orientation = random.choice(["horizontal", "vertical"])  # Randomly choose the ship's orientation.
